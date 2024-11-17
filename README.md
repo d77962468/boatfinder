@@ -55,13 +55,13 @@ MODEL_PATH=path/to/save/model
 ### 4. Run the Notebook
 Open the notebook in Jupyter and run all cells. Please note: This notebook was developed in VSCode. To use this Notebook in the Jupyter environment, use the following command:
 ```bash
-jupyter notebook Build_Friendship_Sloop_Detector_Model.ipynb
+jupyter notebook Build_Sailboat_Detector_Model.ipynb
 ```
 
 ### 5. Run the Streamlit App
 Run the Streamlit app to use the trained model for inference.
 ```bash
-streamlit run Friendship_Sloop_Detector.py
+streamlit run Sailboat_Detector.py
 ```
 
 ## Notebook Sections
@@ -90,9 +90,9 @@ Evaluates the model's performance on the validation dataset and prints the valid
 ### Save the Model
 Saves the trained model to the specified path.
 
-## Python Script: Friendship_Sloop_Detector.py
+## Python Script: Sailboat_Detector.py
 
-The Friendship_Sloop_Detector.py script provides a Streamlit-based web application for detecting sailboats in uploaded images. Below is an overview of the script:
+The Sailboat_Detector.py script provides a Streamlit-based web application for detecting sailboats in uploaded images. Below is an overview of the script:
 
 ## Script Overview
 
@@ -121,4 +121,4 @@ Sets up the Streamlit app title and file uploader for image input.
 Defines a function to preprocess uploaded images to match the model input size.
 
 ## Conclusion
-This repository provides a comprehensive guide to building, training, and deploying a Friendship Sloop detector model using TensorFlow, Keras, and Streamlit. By following the steps outlined, you can preprocess your data, define a robust model architecture, train the model, evaluate its performance, and deploy it as a web application. The use of data augmentation and transfer learning techniques helps improve the model's generalization and accuracy.
+This repository provides a comprehensive guide to building, training, and deploying a Sailboat detector model using TensorFlow, Keras, and Streamlit. By following the steps outlined, you can preprocess your data, define a robust model architecture, train the model, evaluate its performance, and deploy it as a web application. The use of data augmentation and transfer learning techniques helps improve the model's generalization and accuracy.
