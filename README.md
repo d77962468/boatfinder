@@ -1,4 +1,4 @@
-# Friendship Sloop Detector Model
+# Sailboat Detector Model
 
 ## Overview
 
